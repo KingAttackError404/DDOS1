@@ -2,7 +2,7 @@ import socket
 import sys
 from time import time as tt
 
-ip = int(sys.argv[1])
+ip = str(sys.argv[1])
 port = int(sys.argv[2])
 time = int(sys.argv[3])
 
